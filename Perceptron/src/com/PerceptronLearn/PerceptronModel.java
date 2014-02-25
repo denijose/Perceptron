@@ -12,6 +12,8 @@ public class PerceptronModel implements Serializable{
 	public LinkedHashMap<String,HashMap<String,ArrayList<Double>>> featureWeights;
 	
 	public PerceptronModel(){
+		ArrayList<Double> arrayList = new ArrayList<Double>();
+		HashMap<String,ArrayList<Double>> value = new HashMap<String,ArrayList<Double>>();
 		LinkedHashMap<String,HashMap<String,ArrayList<Double>>> featureWeights = new LinkedHashMap<String,HashMap<String,ArrayList<Double>>>();
 	}
 	
