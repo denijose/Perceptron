@@ -25,7 +25,7 @@ public class PerceptronLearn {
 		}	
 		takeAverage();
 		createJSON(modelFileName);
-        System.out.println(MODEL.featureWeights.toString());
+        //System.out.println(MODEL.featureWeights.toString());
 		
 	}
 	
